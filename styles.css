@@ -33,8 +33,9 @@
     background-size: 100%;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 1rem;
+    color: grey
 
 }
 
@@ -54,3 +55,44 @@
     height: 100%;
 }
 
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    background: #f6d3b7;
+    border-radius: 8px;
+    /* outline: none; */
+    padding: 8px 15px;
+    color: gray
+}
+
+.button:hover {
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+    color: #f6d3b7;
+    transition: all 0.3s ease;
+}
+
+/* @media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+    }
+} */
