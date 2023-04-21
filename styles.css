@@ -1,3 +1,4 @@
+/* Global */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,11 +7,7 @@
     /* font-family: 'Mina', sans-serif; */
 }
 
-#logo {
-    height:80px;
-    display: flex;
-}
-
+/* Nav Section */
 .navbar {
     background: #f6d3b7;
     height: 80px;
@@ -42,7 +39,11 @@
     font-size: 2rem;
     margin-left: 1rem;
     color: grey
+}
 
+#logo {
+    height: 80px;
+    display: flex;
 }
 
 .navbar__menu {
@@ -70,7 +71,7 @@
     
 }
 
-.button {
+.button-nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,20 +80,76 @@
     height: 100%;
     background: #f6d3b7;
     border-radius: 8px;
-    /* outline: none; */
-    padding: 8px 15px;
-    color: gray
+    padding: 8px 10px;
+    color: gray;
 }
 
-.button:hover {
+.button-nav:hover {
     background: white;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #88C9AB;
+    /* color: #88C9AB; */
+    color: #18795B;
     transition: all 0.3s ease;
 }
+
+/* Hero Section */
+.hero-image {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    background: url(/img/boba-hero.jpeg);
+    background-size: cover;
+}
+
+.hero__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color:#18795B;
+    /* color:white; */
+    font-size: 1.6rem;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-hero {
+    background-color: #88C9AB;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 120px;
+    font-size: medium;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 8px 10px;
+    
+}
+
+.unoffical-message {
+    font-family: 'Open Sans';
+    font-size: small;
+
+}
+
+.hero-space {
+    padding: 10px;
+}
+
+
+
+
 
 /* @media screen and (max-width: 960px) {
     .navbar__container {
