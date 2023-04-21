@@ -2,16 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Delicious Handrawn', cursive;
+    /* font-family: 'Mina', sans-serif; */
+}
+
+#logo {
+    height:80px;
+    display: flex;
 }
 
 .navbar {
-    background: #88c9ab;
+    background: #f6d3b7;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -84,7 +90,7 @@
 }
 
 .navbar__links:hover {
-    color: #f6d3b7;
+    color: #88C9AB;
     transition: all 0.3s ease;
 }
 
