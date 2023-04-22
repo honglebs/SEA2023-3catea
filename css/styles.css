@@ -132,7 +132,6 @@
     height: 100%;
     width: 100%;
     padding: 8px 10px;
-    position: relative;
     
 }
 
@@ -145,3 +144,36 @@
 .hero-space {
     padding: 10px;
 }
+
+/* About Section */
+.about__container {
+    background-color:lightblue;
+}
+
+.about__content {
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    place-items: center;
+}
+
+figure {
+    width: 336px;
+    height:403px;
+    position: relative;
+    background-color: #eaeaea;
+    padding: 19px 19px 85px 19px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: black;
+    font-family: 'Mina';
+}
+
