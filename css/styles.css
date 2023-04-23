@@ -27,6 +27,7 @@
     z-index: 1;
     width: 100%
 
+
 }
 
 #navbar__logo {
@@ -51,11 +52,11 @@
     align-items: center;
     list-style: none;
     text-align: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .navbar__links {
-    color: white;
+    color: #2E2A29;
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -80,15 +81,15 @@
     text-decoration: none;
     width: 100%;
     height: 100%;
-    background: #f6d3b7;
     border-radius: 8px;
     padding: 8px 10px;
-    color: gray;
+    color: grey;
 }
 
 .button-nav:hover {
-    background: white;
+    /* background: #f7ddc8; */
     transition: all 0.3s ease;
+    color: #88C9AB;
 }
 
 .navbar__links:hover {
@@ -139,7 +140,7 @@
 
 .unoffical-message {
     font-family: 'Open Sans';
-    font-size: small;
+    font-size: 8px
 
 }
 
