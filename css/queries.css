@@ -18,7 +18,7 @@
         width: 100%;
         position: absolute;
         transition: all 0.5s ease;
-        height: 60vh;
+        height: 70vh;
         z-index: -1;
         justify-content: space-around;
 
@@ -29,8 +29,8 @@
         backdrop-filter: blur(5px);
 
         /* use to hide first */
-        /* top: -1000px;
-        opacity: 0; */
+        top: -1000px;
+        opacity: 0;
 
     }
 
@@ -83,6 +83,17 @@
         background-color: white;
         display: flex;
         justify-content: center;
+        padding-inline: 60px;
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+        background-color: white;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+
     }
 
 }
