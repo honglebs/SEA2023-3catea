@@ -1,11 +1,11 @@
 
 
-
+/* Tablet screens */
 @media screen and (max-width: 960px) {
     .navbar__container {
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 90px;
         z-index: 1;
         max-width: 1300px;
         padding: 0;
@@ -98,3 +98,30 @@
 
 }
 
+/* Phone Screens */
+@media screen and (max-width: 480px) {
+    .hero-image {
+        background: url(/img/boba-hero-small.jpeg);
+        position: relative;
+        height: 600px;
+        overflow: hidden;
+        background-size: cover;
+    }
+
+    .hero__container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        text-align: center;
+        color: #18795B;
+        font-size: 1.6rem;
+    }
+
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
