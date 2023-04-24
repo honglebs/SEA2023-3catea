@@ -171,11 +171,6 @@
 
 }
 
-/* About Section */
-.about__container {
-    /* background-color:lightblue; */
-}
-
 .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
