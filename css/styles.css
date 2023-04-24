@@ -348,16 +348,13 @@
     display: flex;
     align-items: center;
     margin-top: 40px;
-
 }
 
 .single-menu img {
     border-radius: 50%;
     max-width: 110px;
-    /* border: 1px dashed #f6d3b7; */
     padding: 3px;
     margin-right: 15px;
-
 }
 
 .single-menu .menu-content h5 {
@@ -367,18 +364,18 @@
     border-bottom: 1px dashed #88C9AB;
     padding-bottom: 5px;
     margin-bottom: 10px;
-
 }
 
 .single-menu .menu-content h5 span {
     color: #18795B;
     float: right;
     font-weight: 600;
-    /* font-style: italic; */
-
-
 }
 
+.menu-content p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
 
 /* Footer Section */
 
