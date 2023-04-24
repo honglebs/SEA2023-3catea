@@ -74,6 +74,14 @@
         margin-bottom: 25px;
     }
 
+    /* Order Online */
+    .order-grid {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        align-items: center;
+    }
+
+    /* Footer */
     .footer-col {
         width: 50%;
     }
