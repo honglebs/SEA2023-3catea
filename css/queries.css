@@ -7,6 +7,18 @@
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+
+    .hero-image {
+        position: center;
+        height: 600px;
+        overflow: hidden;
+        background: url(/img/boba-hero.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+
     .menu__container {
         width: 750px;
     }
@@ -20,6 +32,23 @@
 
 /* Phones */
 @media screen and (max-width: 767px) {
+    .hero-image {
+        background: url(/img/boba-hero-small.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .hero__container {
+        font-size: 1.4rem;
+    }
+
+    .hero__button {
+        font-size: 1rem;
+    }
+
+    .hero__content {
+        padding-top: 1rem;
+    }
     .menu__container {
         width: 320px;
     }
@@ -40,9 +69,9 @@
     }
 }
 
-/* Tablet screens */
+/* Hambuger Menu for tablets & phones */
 @media screen and (max-width: 960px) {
-    .navbar__container {
+.navbar__container {
         display: flex;
         justify-content: space-between;
         height: 90px;
@@ -77,9 +106,7 @@
         z-index: 99;
         height: 60vh;
         font-size: 2rem;
-
     }
-
 
     .navbar__toggle .bar {
         width: 25px;
@@ -108,7 +135,7 @@
     }
 
     .navbar__btn {
-        padding: 2rem;       
+        padding: 2rem;
     }
 
     .button-nav {
@@ -129,39 +156,13 @@
     }
 
     #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg) ;
+        transform: translateY(8px) rotate(45deg);
     }
 
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-}
-
-/* Phone Screens */
-@media screen and (max-width: 480px) {
-    .hero-image {
-        background: url(/img/boba-hero-small.jpeg);
-        position: relative;
-        height: 600px;
-        overflow: hidden;
-        background-size: cover;
-    }
-
-    .hero__container {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        overflow: hidden;
-        text-align: center;
-        color: #18795B;
-        font-size: 1.6rem;
-    }
-
-    .hero__content {
-        display: flex;
-        flex-direction: column;
-    }
 
 }
+
