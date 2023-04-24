@@ -285,8 +285,36 @@
     transition: all 0.35s;
 }
 
-
-footer {
+.footer__container {
     background-color: #18795B;
 }
+
+.footer__content {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly; */
+    /* padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row; */
+
+}
+
+.contact-info p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.email {
+    text-decoration: none;
+}
+
+.sm-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
 
