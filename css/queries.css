@@ -3,6 +3,9 @@
     .menu__container {
         width: 970px;
     }
+    .footer__container {
+        margin: auto;
+    }
 }
 
 /* Tablets */
@@ -72,6 +75,10 @@
     }
     .single-menu img {
         margin-bottom: 25px;
+    }
+
+    .footer-col {
+        width: 50%;
     }
 }
 
