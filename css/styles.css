@@ -331,6 +331,30 @@
     font-size: 14px;
 }
 
+.order__content h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+/* Order Online Section */
+.order-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+}
+
+.order-col img {
+    max-width: 100px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+
+}
+
 /* Footer Section */
 .footer {
     background-color: #18795B;
