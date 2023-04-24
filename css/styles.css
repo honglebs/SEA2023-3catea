@@ -179,6 +179,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding: 60px;
 }
 
 .founder-story {
@@ -190,8 +191,14 @@
 }
 
 .founder-story h1 {
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
     font-size: 40px;
+}
+
+.founder-story p {
+    font-size: 15px;
+    font-family: 'Open sans';
+    margin-bottom: 3rem;
 }
 
 .wrapper {
@@ -199,12 +206,13 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 
 }
 
 .polaroid {
     background-color: white;
-    padding: 1.6rem;
+    padding: 1.2rem;
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -227,6 +235,7 @@
     position: absolute;
     z-index: -1;
     transition: all 0.40s;
+    
 }
 
 .item:nth-of-type(2n+1) {
@@ -277,5 +286,7 @@
 }
 
 
-
+footer {
+    background-color: #18795B;
+}
 
