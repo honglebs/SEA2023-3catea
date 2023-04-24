@@ -1,4 +1,44 @@
+/* Laptops */
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+    .menu__container {
+        width: 970px;
+    }
+}
 
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .menu__container {
+        width: 750px;
+    }
+    .single-menu {
+        flex-direction: column;
+    }
+    .single-menu img {
+        margin-bottom: 25px;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 767px) {
+    .menu__container {
+        width: 320px;
+    }
+    .menu-column {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .menus {
+        display: flex;
+        flex-direction: column;
+    }
+    .single-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .single-menu img {
+        margin-bottom: 25px;
+    }
+}
 
 /* Tablet screens */
 @media screen and (max-width: 960px) {
