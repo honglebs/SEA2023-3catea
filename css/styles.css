@@ -344,6 +344,7 @@
     grid-template-columns: 1fr 1fr;
     padding: 20px;
     align-items: center;
+    padding-bottom: 80px;
 }
 .order-col img {
     max-width: 150px;
@@ -363,7 +364,7 @@
 }
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 70.25%;
+    padding-bottom: 70%;
     position: relative;
     height: 0;
 }
@@ -373,13 +374,13 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    padding: 20px;
+    padding: 25px;
 }
 
 /* Footer Section */
 .footer {
     background-color: #18795B;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 .row {
     display: flex;
