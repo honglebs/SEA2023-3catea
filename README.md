@@ -1,5 +1,6 @@
 # SEA2023-3catea
 Snap Engineering Academy 2023: Web Development Assignment
+This is my first time creating and deploying a website all on my own! Check it out at www.3catea.dev !
 
 # 3catea - Boba Serving Website
 
